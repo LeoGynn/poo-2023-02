@@ -1,5 +1,4 @@
 public abstract class Circulo extends FormaGeometrica {
-    private double pi;
     private double raio;
 
     public Circulo(double raio) {
