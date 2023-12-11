@@ -8,7 +8,7 @@ public class Pessoa {
 
     public double calculaImposto() {
 
-        // implementação do cálculo do imposto
+        // Implementação do cálculo do imposto
 
         if (idade >= 65) {
             return 0; // Pessoa com 65 anos ou mais não paga imposto
@@ -32,7 +32,7 @@ public class Pessoa {
         }
     }
 
-    // Getters e setters
+    // Métodos "Getters" e "Setters"
     public String getNome() {
         return nome;
     }

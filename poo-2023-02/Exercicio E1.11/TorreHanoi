@@ -1,0 +1,27 @@
+public class TorreHanoi {
+    private int movimentos;
+    private int discos;
+
+    public TorreHanoi() {
+        this.movimentos = 0;
+        this.discos = 0;
+    }
+
+    public void resolverHanoi(int discos, char origem, char destino, char auxiliar) {
+        this.discos = discos; // Define a quantidade de discos
+        
+        // Lógica para resolver a Torre de Hanói
+    }
+
+    public int getQuantidadeMovimentos() {
+        return this.movimentos;
+    }
+
+    public int getQuantidadeDiscos() {
+        return this.discos;
+    }
+
+    public void setQuantidadeDiscos(int discos) {
+        this.discos = discos;
+    }
+}
